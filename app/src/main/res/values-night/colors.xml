@@ -1,0 +1,20 @@
+<resources>
+    <!-- Light Mode Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <!-- Dark Mode Colors -->
+    <color name="darkBackground">#121212</color>
+    <color name="darkText">#6200EE</color>
+    <color name="darkPrimary">#BB86FC</color>
+    <color name="darkPrimaryVariant">#3700B3</color>
+    <color name="darkSecondary">#03DAC5</color>
+
+    <!-- Other Useful Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#6200EE </color>
+    <color name="colorAccent">#3700B3</color>
+</resources>

@@ -1,0 +1,19 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Always white background -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+
+        <!-- Disable system “force dark” on Q+ devices -->
+        <item
+            name="android:forceDarkAllowed"
+            tools:targetApi="q">false</item>
+    </style>
+</resources>

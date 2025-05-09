@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Night-mode override (but keeping a white BG and black text) -->
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Still white, not dark -->
+        <item name="android:windowBackground">@color/app_logo_background</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+
+        <!-- Disable Android’s forced dark tinting -->
+        <item
+            name="android:forceDarkAllowed"
+            tools:targetApi="q">false</item>
+    </style>
+
+</resources>

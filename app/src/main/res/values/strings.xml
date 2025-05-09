@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">studybuddy</string>
+
+    <!-- Navigation -->
+    <string name="timer">Timer</string>
+    <string name="stats">Stats</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+
+    <!-- Timer Fragment -->
+    <string name="focus_time">Focus Time</string>
+    <string name="break_time">Break Time</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="reset">Reset</string>
+    <string name="skip">Skip</string>
+    <string name="total_focus_time">Total Focus Time: %1$d minutes</string>
+
+    <string name="total_minutes_format">%1$d minutes</string>
+
+    <!-- Stats Fragment -->
+    <string name="your_focus_stats">Your Focus Statistics</string>
+    <string name="total_hours_minutes_format">%1$d hours %2$d minutes</string>
+    <string name="weekly_stats">Weekly Stats</string>
+    <string name="daily_focus_minutes_label">Daily Focus Minutes</string>
+    <string name="stats_title">Focus Statistics</string>
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="daily_focus_minutes">Focus Minutes</string>
+    <string name="focus_tip_title">Focus Tip</string>
+    <string name="focus_tip_default">Try the Pomodoro technique: focus for 25 minutes, then take a 5-minute break. Repeat!</string>
+
+    <!-- Settings Fragment -->
+    <string name="timer_settings">Timer Settings</string>
+    <string name="focus_duration">Focus Duration</string>
+    <string name="focus_duration_value">%1$d minutes</string>
+    <string name="break_duration">Break Duration</string>
+    <string name="break_duration_value">%1$d minutes</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="reset_statistics">Reset Statistics</string>
+    <string name="reset_stats_info">This will reset all your focus statistics to zero.</string>
+    <string name="stats_reset_success">Statistics reset successfully!</string>
+    <string name="reset_timer">Reset Timer</string>
+    <string name="reset_timer_confirm">Are you sure you want to reset the timer?</string>
+
+    <!-- Notifications -->
+    <string name="channel_name">StudyBuddy Notifications</string>
+    <string name="channel_description">Notifications for timer completion</string>
+    <string name="focus_time_notification">Break time completed! Ready to focus again?</string>
+    <string name="break_time_notification">Focus session completed! Time for a break.</string>
+
+    <!-- Dialogs -->
+    <string name="skip_session">Skip Session</string>
+    <string name="skip_session_confirm">Are you sure you want to skip the current session?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- About Activity -->
+    <string name="app_logo">App Logo</string>
+    <string name="app_version">Version 2.0</string>
+    <string name="app_description">StudyBuddy unleashes the power of Pomodoro like never before, transforming every study session into a laser-focused sprint that obliterates distractions. Its sleek, intuitive interface and fully customizable intervals keep you locked in and on track, turning time management into an art form. Engineered with passion and expertise by Naga Harish Madhav M, StudyBuddy is your ultimate productivity ally.</string>
+    <string name="pomodoro_technique">The Pomodoro Technique</string>
+    <string name="pomodoro_description">The Pomodoro Technique is a time management method that uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato, after the tomato-shaped kitchen timer that Francesco Cirillo used as a university student.</string>
+    <string name="how_to_use">How to Use StudyBuddy</string>
+    <string name="how_to_use_description">1. Set your focus and break durations in the Settings.\n2. Start the timer and focus on your task until the timer rings.\n3. Take a short break when alerted.\n4. Repeat the process.\n5. Track your progress in the Stats tab.</string>
+    <string name="close">Close</string>
+</resources>
